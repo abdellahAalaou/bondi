@@ -1,0 +1,235 @@
+:root {
+    --dark-color: #19283f ;
+    --green-color: #33d1cc ;
+    --red-color : #ff3150 ;
+    --yellow-color : #ffc400;
+    --grey-color : #eff7fa ;
+    --dark-blue: #19283f ;
+}
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+.navbar {
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+
+}
+.landing {
+    background-color: var(--dark-color);
+    height: 100vh;
+    text-align: center;
+    padding-top: 200px;
+    height: calc(569px);
+}
+.text-center {
+    Color: white; 
+}
+
+.btn-login{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding-left: 15px; 
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    
+}
+.btn-style{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding-left: 15px; 
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    margin-top: 80px;
+
+}
+.title {
+    color: black;
+}
+.line {
+    width: 150px;
+    height: 2px;
+    background-color: var(--green-color);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.pic1{
+    height: 130px;
+    width: 120px;
+    margin-bottom: -15px;
+}
+.pic2{
+    height: 100px;
+    width: 90px;
+}
+.pic3 {
+    height: 120px;
+    width: 110px;
+}
+.text {
+    color: var(--yellow-color);
+
+}
+.features-2 {
+    margin-top: 150px;
+    background-color:#eff7fa ;
+    padding-top:90px;
+}
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.pics-col{
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+  gap: 20px;
+  justify-content: center;
+  
+ 
+}
+.items {
+    background-color: #ff3150;
+    height: 250px;
+    width: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.lorem {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.design{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-laptop {
+   width: 400px;
+   margin-top:90px;
+   margin-left:90px;
+ }
+.img-laptop{
+    margin-right: 70px;
+}
+
+.ourTeam{
+   background-color: var(--grey-color);
+   padding-top: 90px;
+}
+.meet-team-text {
+    margin-left: 150px;
+    margin-right: 120px;
+}
+.second-col {
+    gap: 20px;
+}
+.gap-col {
+    display: flex;  
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-pic {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.team-names {
+    background-color: var(--grey-color);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+.the-team{
+    background-color: var(--grey-color);
+}
+.info-team{
+    color: black;
+
+}
+.sub {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--yellow-color);
+    padding-top: 20px;
+    margin-bottom: -0px;
+    height: 90px;
+
+    
+   
+}
+.p-sub {
+    margin-top: 14px;
+
+}
+.button-sub {
+    outline:none;
+    box-shadow: none;
+    color: var(--yellow-color);
+    background-color: var(--dark-blue);
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;  
+    border-bottom: 2px solid black; 
+    margin-bottom: 50px;
+}
+.email-sub{
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid var(--dark-blue) ; 
+    width: 400px;
+    height:40px;
+}
+.email-sub::placeholder {
+    color: white;
+}
+
+.email-sub:focus{
+     outline:0 ;
+}
+.footer {
+    background-color: var(--dark-blue);
+    padding-top: 70px;
+}
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;   
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: start;
+
+}
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: start;
+    
+}
+.nav-footer a {
+    margin: 10px;
+}
